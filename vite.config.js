@@ -18,7 +18,8 @@ export default defineConfig({
         tarefasList : resolve(root,"models/tarefa.html"),
         tarefaCadastro : resolve(root,"models/cadastroTarefa.html"),
         contatoList : resolve(root,"models/contatos.html"),
-        contatoCadastro: resolve(root,"models/cadastroContato.html")      
+        contatoCadastro: resolve(root,"models/cadastroContato.html"),  
+        features: resolve(root,"models/features.html")
       }
     }
   },
