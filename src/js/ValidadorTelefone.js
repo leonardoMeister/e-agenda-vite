@@ -1,6 +1,7 @@
 const tel = document.getElementById('telefone') // Seletor do campo de telefone
 
-    tel.addEventListener('keypress', (e) => mascaraTelefone(e.target.value)) // Dispara quando digitado no campo
+    tel.addEventListener(window.TextEvent && 'name' in window.TextEvent ? 'textInput' : 'keypress',
+     (e) => mascaraTelefone(e.target.value)) // Dispara quando digitado no campo
     tel.addEventListener('change', (e) => mascaraTelefone(e.target.value)) // Dispara quando autocompletado o campo
 
     const mascaraTelefone = (valor) => {

@@ -30,7 +30,7 @@ function alimentarTarefasTabela(listaContatos: Contato[] | undefined) {
     coluna2.innerHTML = "<td>" + contato.nome + "</td>";
     coluna3.innerHTML = "<td>" + contato.telefone + "</td>";
     let botao1 = "<div >";
-     botao1 += "<a href='../html/cadastroContato.html' >" +
+     botao1 += "<a href='./cadastroContato.html' >" +
       "<button  class='btn btn-primary editar icones ' value='" + valor + "' style='width: 40px;' >" +
       "<i class='bi bi-pencil text-light'></i>"
       + "</button>" +

@@ -33,7 +33,7 @@ function alimentarTarefasTabela(listaTarefas: Tarefa[]| undefined) {
     coluna3.innerHTML = "<td>" + tarefa.categoria.toString() + "</td>";
     coluna4.innerHTML = "<td>" + tarefa.statusConclusao + "%</td>";
 
-    let botao1 = "<a href='../html/cadastroTarefa.html'>" +
+    let botao1 = "<a href='./cadastroTarefa.html'>" +
       "<button  class='btn btn-primary editar icones' value='" + valor + "' style='width: 40px;' >" +
       "<i class='bi bi-pencil text-light'></i>"
       + "</button>" +
